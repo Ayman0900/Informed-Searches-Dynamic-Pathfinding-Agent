@@ -16,11 +16,11 @@ FONT_INFO = pygame.font.SysFont("Arial", 16)
 
 
 WHITE, BLACK, GRAY = (255, 255, 255), (0, 0, 0), (200, 200, 200)
-RED = (231, 76, 60)      # Visited Nodes
-YELLOW = (241, 196, 15)  # Frontier Nodes
-GREEN = (46, 204, 113)   # Final Path
-BLUE = (52, 152, 219)    # Start Node
-PURPLE = (155, 89, 182)  # Goal Node
+RED = (231, 76, 60)     
+YELLOW = (241, 196, 15) 
+GREEN = (46, 204, 113) 
+BLUE = (52, 152, 219)   
+PURPLE = (155, 89, 182)  
 SIDEBAR_COLOR = (33, 47, 60)
 
 ROWS = 30 
@@ -180,4 +180,5 @@ def main():
     pygame.quit()
 
 if __name__ == "__main__":
+
     main()
